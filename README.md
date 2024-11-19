@@ -4,14 +4,16 @@
 ```
 mvn clean pakage
 mvn spring-boot:run
+mvn test
 ```
 
 ```
 curl "http://localhost:8080/greeting?name=eduardo"
 ```
+or open in browser:
+- http://localhost:8080/greeting
+- http://localhost:8080/greeting?name=eduardo
 
-http://localhost:8080/greeting
-http://localhost:8080/greeting?name=eduardo
 
 ### Links
 * [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
