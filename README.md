@@ -1,5 +1,6 @@
 # Spring Boot 3 - rest demo app
 
+exploring spring boot resources ... 
 
 ```
 mvn clean pakage
@@ -9,10 +10,16 @@ mvn test
 
 ```
 curl "http://localhost:8080/greeting?name=eduardo"
+curl "http://localhost:8080/product/id/10"
 ```
-or open in browser:
+or open in a browser:
+
 - http://localhost:8080/greeting
 - http://localhost:8080/greeting?name=eduardo
+
+using https://restful-api.dev/ for consuming API using WebClient
+
+- http://localhost:8080/product/id/10
 
 
 ### Links
